@@ -1,0 +1,26 @@
+body {
+    background-image: url("bg.gif") ;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;  
+}
+
+#timeC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#time {
+    font-family: monospace;
+    margin: auto;
+    font-size: 6.5em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(5px);
+    width: 60%
+}
